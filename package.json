@@ -1,0 +1,25 @@
+{
+  "name": "generator-gulp-smacss-boilerplate",
+  "version": "1.0.6",
+  "description": "Boilerplate generator for a Gulp/SMACSS structure project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "yeoman-generator": "^5.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/said-alrove/generator-gulp-smacss-boilerplate.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "@said_alrove",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/said-alrove/generator-gulp-smacss-boilerplate/issues"
+  },
+  "homepage": "https://github.com/said-alrove/generator-gulp-smacss-boilerplate#readme"
+}
