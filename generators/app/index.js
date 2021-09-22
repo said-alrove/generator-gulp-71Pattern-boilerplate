@@ -2,7 +2,7 @@ const Generator = require('yeoman-generator');
 
 module.exports = class extends Generator {
     welcome() {
-        this.log('Welcome to the gulp-71Pattern-boilerplate generator!.')
+        this.log('Welcome to the gulp-71pattern-boilerplate generator!.')
     }
 
     writting() {
@@ -23,7 +23,7 @@ module.exports = class extends Generator {
             this.destinationPath('.gitignore')
         );
         this.fs.copy(
-            this.templatePath('gitmodules'),
+            this.templatePath('.gitmodules'),
             this.destinationPath('.gitmodules')
         );
         this.fs.copy(
