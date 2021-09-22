@@ -5,10 +5,10 @@ This project was possible thanks to [**Coder Coder**](https://www.youtube.com/c/
 
 ## Commands
 * First, you'll need to install the Yeoman dependency globally by running the `npm install -g yo` command.
-* Then, you should install this boilerplate globally by running the `npm install -g generator-gulp-71Pattern-boilerplate` command.
-* As the last step, you have to go to the directory where you'd like to download the boilerplate and then, run the `yo gulp-71Pattern-boilerplate` command.
+* Then, you should install this boilerplate globally by running the `npm install -g generator-gulp-71pattern-boilerplate` command.
+* As the last step, you have to go to the directory where you'd like to download the boilerplate and then, run the `yo gulp-71pattern-boilerplate` command.
 
-    - In case that the package has been updated you can bring the new version to your machine by running the `npm update generator-gulp-71Pattern-boilerplate` command.
+    - In case that the package has been updated you can bring the new version to your machine by running the `npm update generator-gulp-71pattern-boilerplate` command.
 
 > **Disclaimer:** I'm starting to learn how to use **Git/Github** correctly, therefore there'll be plenty of pull requests, commits and other stuff as tests in this repository, however, *this won't represent my way of working forever*, I'll learn more things along the way as always :D!.
 
