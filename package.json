@@ -1,6 +1,6 @@
 {
   "name": "generator-gulp-71pattern-boilerplate",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Boilerplate generator for a Gulp/7-1-pattern structure project",
   "main": "index.js",
   "scripts": {
