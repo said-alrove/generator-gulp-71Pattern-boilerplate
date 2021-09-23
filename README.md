@@ -34,6 +34,7 @@ To understand this boilerplate at all you'll need to have a slight notion about 
 - [What's Yeoman?](#whats-yeoman)
 - [Guide](#guide)
     - [General](#general)
+    - [7-1 pattern](#7-1-pattern)
     - [Icons](#icons)
     - [Netlify](#netlify)
     - [Gulp tasks](#gulp-tasks)
