@@ -6,7 +6,7 @@ This is a boilerplate of the structure that I'm currently using in my projects w
 
 This project was possible thanks to [**Coder Coder**](https://www.youtube.com/c/TheCoderCoder/featured) with her video [Generate website starter files with just one command!](https://www.youtube.com/watch?v=NgaV7503dTk&t=480s&ab_channel=CoderCoder). If you'd like to check his boilerplate generator [check this out](https://github.com/thecodercoder/generator-gulp-sass-boilerplate).
 
-## Installation
+## Installation 
 First, You'll need to install the **Yeoman** dependency globally by using the `npm install -g yo` command.
 
 ```
@@ -46,79 +46,9 @@ And, as the last step, you have to go to the directory where you'd like to downl
 
 > **Note:** this boilerplate is automatically generated just by typing a command in the CL thanks to Yeoman.
 
-To understand this boilerplate at all you'll need to have a slight notion about these technologies:
+To understand this boilerplate at all you'll need to have a slight notion about [**Git**](https://git-scm.com/), [**Gulp.js**](https://gulpjs.com/), [**HTML5**](https://en.wikipedia.org/wiki/HTML5), [**CSS3**](https://en.wikipedia.org/wiki/CSS), [**Javascript**](https://www.javascript.com/), [**SASS**](https://sass-lang.com/), [**Netlify**](https://www.netlify.com/).
 
-<a href="https://git-scm.com/">
-    <img 
-        src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
-        style="
-            width: 50px;
-            height: 50px;
-            margin-inline: 2.5px;"
-        alt="Git logo">
-</a>
-
-<a href="https://gulpjs.com/">
-    <img 
-        src="https://devstickers.com/assets/img/pro/e1bm.png"
-        style="
-            width: 50px;
-            height: 50px;
-            margin-inline: 2.5px;"
-        alt="Gulp.js logo">
-</a>
-
-<a href="https://en.wikipedia.org/wiki/HTML5">
-    <img 
-        src="https://cdn-icons-png.flaticon.com/512/1216/1216733.png"
-        style="
-            width: 50px;
-            height: 50px;
-            margin-inline: 2.5px;"
-        alt="HTML5 logo">
-</a>
-
-<a href="https://en.wikipedia.org/wiki/CSS">
-    <img 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/240px-CSS3_logo.svg.png"
-        style="
-            width: 50px;
-            height: 50px;
-            margin-inline: 2.5px;"
-        alt="CSS3 logo">
-</a>
-
-<a href="https://www.javascript.com/">
-    <img 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"
-        style="
-            width: 50px;
-            height: 50px;
-            margin-inline: 2.5px;"
-        alt="Javascript logo">
-</a>
-
-<a href="https://sass-lang.com/">
-    <img 
-        src="https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png"
-        style="
-            width: 50px;
-            height: 50px;
-            margin-inline: 2.5px;"
-        alt="SASS logo">
-</a>
-
-<a href="https://www.netlify.com/">
-    <img 
-        src="https://cdn.worldvectorlogo.com/logos/netlify.svg"
-        style="
-            width: 50px;
-            height: 50px;
-            margin-inline: 2.5px;"
-        alt="Netlify logo">
-</a>
-
-## **Table of contents**
+## **Table of contents** 
 - [What's Yeoman?](#whats-yeoman)
 - [Guide](#guide)
     - [General](#general)
@@ -127,15 +57,15 @@ To understand this boilerplate at all you'll need to have a slight notion about 
     - [Netlify](#netlify)
     - [Gulp tasks](#gulp-tasks)
 
-## **What's Yeoman?**
+## **What's Yeoman?** 
 ![](https://yeoman.io/static/tech_stack.987ffff448.png)
 
 [**Yeoman**](https://yeoman.io/generators/) is an open source client-side scaffolding tool for web applications. Yeoman runs as a command-line interface written for Node.js and combines several functions into one place, such as generating a starter template, managing dependencies, running unit tests, providing a local development server, and optimizing production code for deployment.
 
-## **Guide**
+## **Guide** 
 > **Note:** It's important to remember to update the submodules used to import vendors when starting using this boilerplate.
 
-### **General**
+### **General** 
 * Don't worry about the unnecessary files that are added when updating the vendors such as the `README.md` file of lessier or the directory with the same name that's dedicated to saving the images needed for the `README.md` because this boilerplate already counts with those directories added to the .gitignore file, therefore they won't be reflected when pushing commits to upstream.
 
 * The boilerplate includes the **src** and **public** directories already created because the **gulp** command was tested before uploading this boilerplate (that's the reason why there's an image and an icon in the **assets** directory just to see how the final result would be), but you can remove the **public** directory and the example assets that are in the **src** directory if you want, and then run the **gulp** command once you've put your own assets in the **src** directory to generate a new **public** directory.
@@ -169,7 +99,7 @@ To understand this boilerplate at all you'll need to have a slight notion about 
 
 * All the images obtained with Iconifier must be put in the icons directory to work well with the Gulp images tasks.
 
-### **Netlify**
+### **Netlify** 
 * There's a basic Netlify config file to help you when deploying the project altogether with Netlify and Github.
 
     - The base directory is where Netlify will build the site from (if it's necessary). This directory is where's located all the Gulp tasks and package.json files.
